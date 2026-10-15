@@ -1,0 +1,13 @@
+{
+  "name": "lux-salus-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite lux-salus-site --open",
+    "build": "vite build lux-salus-site",
+    "preview": "vite preview lux-salus-site"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
