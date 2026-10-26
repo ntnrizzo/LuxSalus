@@ -1121,6 +1121,14 @@ button {
   max-width: 580px;
 }
 
+.treatment-detail {
+  margin: -12px 0 28px;
+  color: #4b5d4e;
+  font-size: 14px;
+  line-height: 1.65;
+  max-width: 580px;
+}
+
 /* Grid de 4 Benefícios */
 .treatment-benefits-grid {
   display: grid;
@@ -1220,6 +1228,26 @@ button {
   width: 1px;
   height: 34px;
   background: rgba(198, 163, 92, 0.4);
+}
+
+.treatment-offer {
+  margin-top: 20px;
+  padding: 14px 18px;
+  border-left: 2px solid var(--gold);
+  background: rgba(255, 255, 255, 0.62);
+  color: #38493a;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.treatment-offer p {
+  margin: 0;
+}
+
+.treatment-offer .treatment-offer-note {
+  margin-top: 4px;
+  color: #687568;
+  font-size: 11px;
 }
 
 .treatment-lotus {
