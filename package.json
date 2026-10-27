@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vite lux-salus-site --open",
-    "build": "vite build lux-salus-site",
-    "preview": "vite preview lux-salus-site"
+    "build": "vite build lux-salus-site --outDir ../dist --emptyOutDir",
+    "preview": "vite preview lux-salus-site --outDir ../dist"
   },
   "devDependencies": {
     "vite": "^6.0.0"
